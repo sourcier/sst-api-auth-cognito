@@ -1854,10 +1854,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@serverless-stack/cli@0.9.9":
-  version "0.9.9"
-  resolved "https://registry.yarnpkg.com/@serverless-stack/cli/-/cli-0.9.9.tgz#a44b984b93dd93d6cceeb7104a1a38cd2ea5fa0e"
-  integrity sha512-W5iTrUlYSjrWwDxAxfpDWuxDzia1MmxIC150fp1Eq8emtfgPc4RztKk+1af7RL5EoE/RiiVU97ksW0cFM/vwlg==
+"@serverless-stack/cli@0.9.10":
+  version "0.9.10"
+  resolved "https://registry.yarnpkg.com/@serverless-stack/cli/-/cli-0.9.10.tgz#f9e6c59eca5ae7f132c27219a7e05458e198c7d7"
+  integrity sha512-xT6aMe0/OfY9Hs5ONe1AJvMVjydZo24xbNPv/lmS8dOvNwCBzGpiDKICjlfJnjAhnVn4l+eLXmp7MV2o1t6SNQ==
   dependencies:
     "@aws-cdk/aws-apigatewayv2" "1.91.0"
     "@aws-cdk/aws-dynamodb" "1.91.0"
@@ -1869,8 +1869,8 @@
     "@babel/eslint-plugin" "^7.11.3"
     "@babel/plugin-proposal-class-properties" "^7.10.4"
     "@babel/preset-env" "^7.10.4"
-    "@serverless-stack/core" "^0.9.9"
-    "@serverless-stack/resources" "^0.9.9"
+    "@serverless-stack/core" "^0.9.10"
+    "@serverless-stack/resources" "^0.9.10"
     "@types/jest" "^26.0.7"
     "@types/node" "^14.0.27"
     "@typescript-eslint/eslint-plugin" "^4.15.1"
@@ -1893,20 +1893,20 @@
     ws "^7.4.0"
     yargs "^15.4.1"
 
-"@serverless-stack/core@^0.9.9":
-  version "0.9.9"
-  resolved "https://registry.yarnpkg.com/@serverless-stack/core/-/core-0.9.9.tgz#1de27c3aa3375bdb8b7b20f25a5083aedb5da83d"
-  integrity sha512-sUIzBV8oLxv1zbbGm6bvNJsB5ma4Zmq2s0VZmK/HWMgvE3svoxEch73Gb8UUZLiqBMh4r3iE4xmCBI9Fjk3Y3A==
+"@serverless-stack/core@^0.9.10":
+  version "0.9.10"
+  resolved "https://registry.yarnpkg.com/@serverless-stack/core/-/core-0.9.10.tgz#751d1f62bfb69128f32cd06fb61af265ea94db82"
+  integrity sha512-+NYYAp7PmJWnjfSdtMDyW7bfG2HIJ29SfRNLMtaZWaUmNYwIvAhwACQAASBI7BnEjjoBhGxlQhqpVNp/mKarZA==
   dependencies:
     aws-sdk "^2.761.0"
     chalk "^4.1.0"
     log4js "^6.3.0"
     sst-cdk "1.91.0-rc.1"
 
-"@serverless-stack/resources@0.9.9", "@serverless-stack/resources@^0.9.9":
-  version "0.9.9"
-  resolved "https://registry.yarnpkg.com/@serverless-stack/resources/-/resources-0.9.9.tgz#9db0b3f7b3b79c0f05ef2b7fbec4bd5d49a56786"
-  integrity sha512-SclvNLlxuQekaMdxZThvJAyvhOBrW0274mcqJ618jo+LYUkuTGtrTC9CRfy9Qx5KM3toP+I77NvbSU8GKA7cmg==
+"@serverless-stack/resources@0.9.10", "@serverless-stack/resources@^0.9.10":
+  version "0.9.10"
+  resolved "https://registry.yarnpkg.com/@serverless-stack/resources/-/resources-0.9.10.tgz#d9a2146e97420ee1d42910c948a6118981abf07c"
+  integrity sha512-htkU6CRUWpYQ0nVHu+DkeJNVz8UXfBtDkhK9tGtW9hfSputxnixorAAMAPJJLPXCKlnGkMF0FwQhvhM+v0Gaig==
   dependencies:
     "@aws-cdk/aws-apigatewayv2" "1.91.0"
     "@aws-cdk/aws-apigatewayv2-authorizers" "1.91.0"
@@ -1929,6 +1929,7 @@
     "@aws-cdk/aws-sqs" "1.91.0"
     "@aws-cdk/core" "1.91.0"
     "@aws-cdk/cx-api" "1.91.0"
+    "@serverless-stack/core" "^0.9.10"
     "@types/jest" "^26.0.7"
     chalk "^4.1.0"
     cross-spawn "^7.0.3"
